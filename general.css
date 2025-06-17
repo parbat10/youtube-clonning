@@ -1,0 +1,22 @@
+#main-body{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+  
+}
+#left-nav{
+  height: 100%;
+  width: 6%;
+  position: fixed;
+    left: 0;
+    bottom:0;
+    top: 57px;
+    background-color: rgb(211, 103, 103);
+}
+  
+body{
+  padding-top: 80px;
+  padding-left: 80px;
+}
