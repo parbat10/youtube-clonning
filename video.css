@@ -8,8 +8,29 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap:40px;
+    z-index: 0;
+    position:relative;
 } 
 #video-info{
     display: grid;
     grid-template-columns: 50px 1fr;
+}
+#thumbnails{
+    width: 100%; 
+    margin-bottom: 10px;
+}
+#video-time{
+    background-color: black;
+    color: white;
+    position:absolute;
+    bottom:20px;
+    right:8px;
+    z-index:1;
+    padding-left: 3px;
+    padding-right:3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 15px;
+    font-weight:500;
+    border-radius: 4px;
 }
